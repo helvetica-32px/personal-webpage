@@ -1,0 +1,133 @@
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 16px;
+  background-color: #393E46;
+  margin: 0;
+  padding: 0;
+  color: #393E46;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #EEEEEE;
+  box-shadow: 0 0 10px rgba(57, 62, 70, 0.1);
+  border-radius: 8px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h1, h2, h3 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #393E46;
+}
+
+.pronunciation {
+  font-size: 14px;
+  color: #000 !important;
+  margin-bottom: 10px;
+  font-style: italic;
+  letter-spacing: 0.5px;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px auto;
+  max-width: 600px;
+  color: #000 !important;
+  line-height: 1.7;
+  font-weight: 600;
+  background-color: #EEEEEE;
+  border-radius: 6px;
+  padding: 10px 0;
+  letter-spacing: 0.1px;
+  box-shadow: 0 1px 4px rgba(57, 62, 70, 0.05);
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #948979;
+}
+
+.bio {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #948979;
+}
+
+.social-links ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.social-links li a {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 24px;
+  color: #EEEEEE;
+  background-color: #393E46;
+  text-align: center;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(57, 62, 70, 0.2);
+}
+
+.hobbies ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.hobbies li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.hobby-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  color: #EEEEEE;
+  background-color: #393E46;
+  border-radius: 8px;
+  text-decoration: none;
+  box-shadow: 0 2px 4px rgba(57, 62, 70, 0.2);
+}
+
+.hobby-label {
+  font-size: 1.1em;
+  color: #393E46;
+  font-weight: bold;
+  text-align: center;
+}
+
